@@ -10,23 +10,23 @@ kubectl delete namespace NameSpacdName
 Features
 Certified on AKS
 PowerShell scripts automate all of the features
-All samples that I found assumed a Linux client and no PoserShell
-Linux based containers whicdh allow for K8S native pod clustering
-PowerShell script to create your own docker images if you don't want to use mine at https://cloud.docker.com/u/shadowpic
+All samples that I found assumed a Linux client and no PowerShell
+Linux based containers which allow for K8S native pod clustering
+PowerShell script to create your own docker images
 Build the cluster from Docker root containers
 Real time monitoring of the performance test with Grafana
 Combine Azure PAS service metrics side by side with JMeter metrics using Grafana
 Redis support to feed parameters to your tests
-Dependencies
+
+Dependencies:
 Docker for Windwos Desktop: https://docs.docker.com/docker-for-windows/install/
 Azure Client: https://docs.microsoft.com/en-us/cli/azure/install-azure-cli?view=azure-cli-latest
 AKS: https://azure.microsoft.com/en-us/services/kubernetes-service/
-Helm version v3.2.4: https://github.com/helm/helm/releases/tag/v3.2.4
+Helm version v2.16.1
 To create a basic load test
-
 JMeter 5.x: https://jmeter.apache.org/download_jmeter.cgi
 JMeter Plugins: https://jmeter-plugins.org/
-A web site somewhere that you can break and not get in trouble. :)
+A web site for load test
 Overview of the deployment steps
 Login with the Azure Client
 Select the subscription that you want to create the AKS cluster in
