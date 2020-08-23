@@ -1,0 +1,12 @@
+FROM shadowpic/jmeter-base:latest
+MAINTAINER DarrenRich
+
+ARG JMETER_VERSION=5.1.1
+
+ENV JMETER_VERSION=5.1.1
+
+COPY rmi_keystore.jks /jmeter/apache-jmeter-$JMETER_VERSION/bin/
+
+COPY rmi_keystore.jks /                     
+
+EXPOSE 1099 50000

@@ -1,0 +1,4 @@
+del customer
+SADD customer "app-perftest-aci-terra.azurewebsites.net,perfuser1@test.com,passwd1"
+SADD customer "app-perftest-aci-terra.azurewebsites.net,perfuser2@test.com,passwd2"
+SADD customer "app-perftest-aci-terra.azurewebsites.net,perfuser3@test.com,passwd3"

@@ -1,0 +1,6 @@
+del url
+SADD url "un1,pwd1"
+SADD url "un2,pwd2"
+SADD url "un3,pwd3"
+SADD url "un4,pwd4"
+SADD url "un5,pwd5"
